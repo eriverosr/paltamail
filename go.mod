@@ -33,7 +33,7 @@ require (
 	github.com/golangci/go-tools v0.0.0-20190124090046-35a9f45a5db0 // indirect
 	github.com/golangci/gocyclo v0.0.0-20180528144436-0a533e8fa43d // indirect
 	github.com/golangci/gofmt v0.0.0-20181222123516-0b8337e80d98 // indirect
-	github.com/golangci/golangci-lint v1.17.1
+	github.com/golangci/golangci-lint v1.33.0
 	github.com/golangci/gosec v0.0.0-20180901114220-8afd9cbb6cfb // indirect
 	github.com/golangci/lint-1 v0.0.0-20181222135242-d2cdd8c08219 // indirect
 	github.com/golangci/revgrep v0.0.0-20180812185044-276a5c0a1039 // indirect

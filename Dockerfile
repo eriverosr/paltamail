@@ -1,5 +1,8 @@
-FROM gcr.io/distroless/static
-WORKDIR /
-COPY burnerkiwi /
-EXPOSE 8080 25
-ENTRYPOINT [ "/burnerkiwi" ]
+FROM golang:1.15.6
+COPY ./ /kiwi/
+WORKDIR /kiwi/
+EXPOSE 8080
+EXPOSE 25
+RUN go mod tidy
+RUN go build
+ENTRYPOINT ["/kiwi/burner.kiwi"]
